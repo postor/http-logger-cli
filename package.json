@@ -1,0 +1,28 @@
+{
+  "name": "http-logger-cli",
+  "version": "1.0.0",
+  "description": "a http logger cli",
+  "type": "module",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postor/http-logger-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/postor/http-logger-cli/issues"
+  },
+  "homepage": "https://github.com/postor/http-logger-cli#readme",
+  "dependencies": {
+    "@tinyhttp/app": "^2.0.20",
+    "@tinyhttp/logger": "^1.3.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5"
+  }
+}
